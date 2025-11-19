@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  position: sticky;
+  justify-content: center;
+  padding: 1.2rem 1rem;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  z-index: 10;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.countries {
+  display: grid;
+  max-width: 1400px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 35px;
+}
